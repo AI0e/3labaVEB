@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    gap: 0;
+}
+body, html
+{
+    height: 100%;
+    background-color: black;
+}
+.screen {
+    height: 100%;
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+}
+.double,.white, .triple 
+{
+    display: table-cell;
+    vertical-align: top;
+}
+
+.white, .green, .picture
+{
+    position: relative;
+}
+.screen ,.green img, .white img, .picture img
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.double {
+    width: 30%;
+}
+.orange {
+    background-color: #807F5C;
+    font-size: 7vh;
+    height: 70%;
+    width: 100%;
+}
+.orange ul
+{
+    overflow-y: auto;
+    padding-top: 20%;
+    padding-left: 15%;
+    font-size: 7vh;
+}
+.green
+{
+    height: 30%;
+}
+.white
+{
+    height: 100%;
+    width: 10%;
+}
+
+.triple
+{
+    width: 60%;
+    height: 100%;
+}
+
+.blue
+{
+    height: 20%;
+    width: 100%;
+    font-size: 1.5vh;
+    text-align: center;
+    vertical-align: middle;
+}
+.blue p
+{
+    white-space: nowrap;
+}
+.blue1
+{
+    background-color: #807F5C;
+}
+.blue2
+{
+    background-color: #090C08;
+    color: aliceblue;
+}
+
+.picture
+{
+    width: 100%;
+    height: 60%;
+}
