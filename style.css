@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    gap: 0;
+}
+body
+{
+    background-color: black;
+}
+.white, .green, .picture
+{
+    position: relative;
+}
+.screen ,.green img, .white img, .picture img
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.flexbox
+{
+    display: flex;
+}
+
+.double
+{
+    flex-direction: column;
+    flex: 3;
+}
+.orange
+{
+    background-color: #807F5C;
+    flex: 3;    
+}
+.orange ul
+{
+
+    overflow-y: auto;
+    padding-top: 20%;
+    padding-left: 15%;
+    font-size: 7vh;
+}
+.orange ul a
+{
+    color: aliceblue;
+    text-decoration: none;
+
+}
+.green
+{
+    flex: 1;
+}
+
+.white
+{
+    flex: 1;
+}
+.triple
+{
+    flex-direction: column;
+    flex: 6;
+}
+
+.blue
+{
+    font-size: 1.5vh;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    gap: 30%;
+}
+.blue p
+{
+    white-space: nowrap;
+}
+.blue1
+{
+    background-color: #807F5C;
+    padding-left: 15%;
+}
+.blue2
+{
+    padding-right: 15%;
+    background-color: #090C08;
+    justify-content: end;
+    color: aliceblue;
+}
+.blue2 p
+{
+    order: -1;
+}
+.picture
+{
+    flex: 3;
+}
+@media(max-width:600px) and (min-width:300px)
+{
+
+.flexbox
+{
+    flex-direction: column;
+}
+.double
+{
+    flex-direction: row;
+    flex: 1;
+}
+.green
+{
+    flex: 2;
+}
+.white
+{
+    flex: 1;
+}
+.orange ul
+{
+    font-size: 3vh;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.blue
+{
+    font-size: 1vh;
+}
+.picture
+{
+    flex: 1;
+}
+}
